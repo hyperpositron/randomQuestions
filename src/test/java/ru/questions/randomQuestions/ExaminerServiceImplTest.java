@@ -11,9 +11,10 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import pro.sky.cw_2.exception.IncorrectAmountOfQuestions;
-import pro.sky.cw_2.model.Question;
-import pro.sky.cw_2.service.QuestionService;
+import ru.questions.randomQuestions.exception.IncorrectAmountOfQuestions;
+import ru.questions.randomQuestions.model.Question;
+import ru.questions.randomQuestions.service.QuestionService;
+import ru.questions.randomQuestions.service.impl.ExaminerServiceImpl;
 
 @ExtendWith(MockitoExtension.class)
 public class ExaminerServiceImplTest {

@@ -1,4 +1,4 @@
-package pro.sky.cw_2.service.impl;
+package ru.questions.randomQuestions;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
@@ -7,11 +7,12 @@ import java.util.HashSet;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import pro.sky.cw_2.exception.QuestionAlreadyExistsException;
-import pro.sky.cw_2.exception.QuestionNotFoundException;
-import pro.sky.cw_2.exception.QuestionsAreEmptyException;
-import pro.sky.cw_2.model.Question;
-import pro.sky.cw_2.service.QuestionService;
+import ru.questions.randomQuestions.exception.QuestionAlreadyExistsException;
+import ru.questions.randomQuestions.exception.QuestionNotFoundException;
+import ru.questions.randomQuestions.exception.QuestionsAreEmptyException;
+import ru.questions.randomQuestions.model.Question;
+import ru.questions.randomQuestions.service.QuestionService;
+import ru.questions.randomQuestions.service.impl.JavaQuestionService;
 
 public class JavaQuestionServiceTest {
 
