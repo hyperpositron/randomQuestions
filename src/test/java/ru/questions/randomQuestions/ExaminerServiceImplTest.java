@@ -51,7 +51,8 @@ public class ExaminerServiceImplTest {
         new Question("Q4", "A4"),
         new Question("Q4", "A4"),
         new Question("Q5", "A5"),
-        new Question("Q2", "A2")
+        new Question("Q2", "A2"),
+            new Question("Q3", "A3")
     );
 
     assertThat(examinerService.getQuestions(3))
